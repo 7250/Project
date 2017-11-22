@@ -65,6 +65,8 @@ public class PaymentGateway extends javax.swing.JFrame {
         jRadioButton2 = new javax.swing.JRadioButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Payment Gateway");
+        setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("Microsoft JhengHei", 1, 15)); // NOI18N
         jLabel1.setText("Receipt No.");

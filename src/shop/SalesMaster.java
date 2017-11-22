@@ -120,7 +120,7 @@ public class SalesMaster extends javax.swing.JFrame {
         jLabel10.setText("Change Quantity -");
 
         jLabel11.setFont(new java.awt.Font("Microsoft JhengHei", 1, 15)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(0, 0, 255));
+        jLabel11.setForeground(new java.awt.Color(0, 153, 51));
         jLabel11.setText("F2");
 
         jSeparator1.setForeground(new java.awt.Color(153, 153, 153));
