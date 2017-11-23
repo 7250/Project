@@ -5,6 +5,8 @@
  */
 package shop;
 
+import java.awt.Font;
+
 /**
  *
  * @author Avinash
@@ -16,6 +18,8 @@ public class BillingMaster extends javax.swing.JFrame {
      */
     public BillingMaster() {
         initComponents();
+        //jTable1.getTableHeader().setBackground(new ColorUIResource(Color.RED));
+        jTable1.getTableHeader().setFont(new Font("Microsoft JhengHei", Font.BOLD, 15));
     }
 
     /**
@@ -50,7 +54,6 @@ public class BillingMaster extends javax.swing.JFrame {
         jLabel1.setText("jLabel1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setFont(new java.awt.Font("Microsoft JhengHei", 0, 14)); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("Microsoft JhengHei", 1, 15)); // NOI18N
         jLabel2.setText("A/C Name");
@@ -97,11 +100,9 @@ public class BillingMaster extends javax.swing.JFrame {
         jLabel9.setForeground(new java.awt.Color(204, 0, 0));
         jLabel9.setText("Esc");
 
+        jTable1.setFont(new java.awt.Font("Microsoft JhengHei", 1, 14)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
                 {null, null, null, null}
             },
             new String [] {

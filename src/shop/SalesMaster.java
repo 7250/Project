@@ -57,7 +57,6 @@ public class SalesMaster extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Sales Master");
-        setFont(new java.awt.Font("Agency FB", 0, 14)); // NOI18N
         setSize(new java.awt.Dimension(1366, 768));
 
         jLabel1.setFont(new java.awt.Font("Microsoft JhengHei", 1, 15)); // NOI18N
